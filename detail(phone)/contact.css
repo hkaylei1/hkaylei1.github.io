@@ -1,0 +1,311 @@
+body {
+    background-color:#F7B05B;
+}
+
+.reem-kufi-ink-regular {
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.metrophobic-regular {
+    font-family: "Metrophobic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top:55px;
+    left:5px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #774c07;;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top:5px;
+    text-decoration: none;
+    font-family:"Reem Kufi Ink";
+    font-size:17px;
+  }
+
+  li a:hover {
+    color: #fff0a6;
+  }
+
+  .vector {
+    height:40px;
+    width:auto;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left:160px;
+    text-align: center;
+    border:none;
+    margin:0;
+  }
+
+  h1 {
+    position: absolute;
+    left: 15px;
+    top:90px;
+    font-family: "Reem Kufi Ink";
+    color:#9a5700;
+    font-size:40px;
+  }
+
+  .block {
+    display: block;
+    border: 1px solid #fff0a6;
+    position:relative;
+    top: 94px;
+  }
+
+  .container {
+    text-align: left;
+    position: absolute;
+    top:200px;
+    width:300px;
+    left:15px;
+    font-family: "metrophobic";
+    color:#774c07;
+    font-size: 15px;}
+
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #fff0a6;
+  }
+
+  .text {
+    font-size:10px;
+    font-family: "metrophobic";
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    background-color: #fff0a6;
+    border: 1px solid #fff0a6; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color:#fff0a6;
+    outline: none;
+  }
+  
+ 
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+
+  .registerbtn {
+    background-color: #fff0a6;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity:1;
+  }
+  
+ 
+  a {
+    color: dodgerblue;
+  }
+  
+ 
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  input[type=submit] {
+    background-color: #fff0a6;
+    color: rgb(41, 30, 12);
+    padding: 12px 20px;
+    border: none;
+    font-family: "metrophobic";
+    border-radius: 4px;
+    cursor: pointer;
+    text-align:center;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff6600;
+  }
+  
+  @media (min-width:992px) and (max-width: 1600px) {
+    
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      position: absolute;
+      left:350px;
+      top:60px;
+      text-align:center;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: #774c07;
+      text-align: center;
+      padding: 14px 16px;
+      margin-top:5px;
+      text-decoration: none;
+      font-family:"Reem Kufi Ink";
+      font-size:40px;
+    }
+  
+    li a:hover {
+      color:#fff0a6;
+    }
+  
+    .vector {
+      height:60px;
+      width:auto;
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      left:700px;
+      text-align: center;
+    }
+  
+    h1 {
+      position: absolute;
+      left: 460px;
+      top:130px;
+      font-family: "Reem Kufi Ink";
+      color:#9a5700;
+      font-size: 60px;
+    }
+  
+    .block {
+      display: block;
+      border: 1px solid #fff0a6;
+      position:relative;
+      top: 140px;
+    }
+  
+    .container {
+      text-align: left;
+      position: absolute;
+      top:300px;
+      width:300px;
+      left:60px;
+      font-family: "metrophobic";
+      color:#774c07;
+      font-size: 25px;}
+  
+      input[type=text], input[type=password] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0 22px 0;
+      display: inline-block;
+      border: none;
+      background: #fff0a6;
+    }
+  
+    .text {
+      font-size:30px;
+      font-family: "metrophobic";
+    }
+  
+    input[type=text], select, textarea {
+      width: 80vw;
+      height:20px;
+      padding: 12px; 
+      background-color: #fff0a6;
+      border: 1px solid #fff0a6; 
+      border-radius: 8px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical;
+    }
+    
+    input[type=text]:focus, input[type=password]:focus {
+      background-color:#fff0a6;
+      outline: none;
+    }
+    
+   
+    hr {
+      border: 1px solid #f1f1f1;
+      margin-bottom: 25px;
+    }
+    
+  
+    .registerbtn {
+      background-color: #fff0a6;
+      color: white;
+      padding: 16px 20px;
+      margin: 8px 0;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+    
+    .registerbtn:hover {
+      opacity:1;
+    }
+    
+   
+    a {
+      color: dodgerblue;
+    }
+    
+   
+    .signin {
+      background-color: #f1f1f1;
+      text-align: center;
+    }
+    input[type=submit] {
+      background-color: #fff0a6;
+      color: rgb(41, 30, 12);
+      padding: 12px 20px;
+      border: none;
+      font-family: "metrophobic";
+      border-radius: 4px;
+      cursor: pointer;
+      text-align:center;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #ff6600;
+      color:#fff0a6;
+    }
+  
+  
+  }

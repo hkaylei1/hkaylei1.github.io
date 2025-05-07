@@ -1,0 +1,278 @@
+body {
+    background-color:#F7B05B;
+}
+
+.reem-kufi-ink-regular {
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.metrophobic-regular {
+    font-family: "Metrophobic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top:55px;
+    left:5px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #774c07;;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top:5px;
+    text-decoration: none;
+    font-family:"Reem Kufi Ink";
+    font-size:17px;
+  }
+
+  li a:hover {
+    color: #fff0a6;
+  }
+
+  .vector {
+    height:40px;
+    width:auto;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left:160px;
+    text-align: center;
+    border:none;
+    margin:0;
+  }
+
+  h1 {
+    position: absolute;
+    left: 5px;
+    top:65px;
+    font-family: "Reem Kufi Ink";
+    color:#9a5700;
+    font-size:60px;
+  }
+
+  h2 {
+    position: absolute;
+    left: 60px;
+    top:170px;
+    font-family: "Reem Kufi Ink";
+    color:#3f2400;
+    font-size:40px;
+    font-weight: bold;
+  }
+
+  .block {
+    display: block;
+    border: 1px solid #fff0a6;
+    position:relative;
+    top: 94px;
+  }
+
+  img {
+    width:300px;
+    height:auto;
+    border: solid 3px #3f2400;
+}
+
+.container {
+    position: relative;
+    top:270px;
+    margin-left:30px;
+}
+
+figcaption {
+    text-align: center;
+    position:relative;
+    left: 0px;
+    font-family: "Metrophobic";
+    font-size: 15px;
+    color:#1F1300;
+    width:300px;
+
+}
+
+p {
+    text-align: center;
+    position:relative;
+    font-family: "Metrophobic";
+    font-size: 15px;
+    color:#1F1300;
+    width:300px;
+    top: 10px;
+}
+
+.block2 {
+    display: block;
+    border:solid 2px #fff0a6;
+}
+
+.block3 {
+    display: block;
+    border:solid 2px #fff0a6;
+}
+
+
+h3 {
+    width:300px;
+    text-align:center;
+    font-size:30px;
+    font-family:"Reem Kufi Ink";
+    color:#600a0b;
+}
+
+
+@media (min-width:992px) and (max-width: 1600px) {
+    
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left:350px;
+    top:60px;
+    text-align:center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #774c07;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top:5px;
+    text-decoration: none;
+    font-family:"Reem Kufi Ink";
+    font-size:40px;
+  }
+
+  li a:hover {
+    color:#fff0a6;
+  }
+
+  .vector {
+    height:60px;
+    width:auto;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left:700px;
+    text-align: center;
+  }
+
+  h1 {
+    position: absolute;
+    left: 460px;
+    top:120px;
+    font-family: "Reem Kufi Ink";
+    color:#9a5700;
+    font-size: 75px;
+  }
+
+  img {
+    width:auto ;
+    height:500px;
+    border: solid 2px #9a5700;
+    text-align: center;
+}
+
+h2 {
+  position: absolute;
+  left: 65px;
+  top:220px;
+  font-family: "Reem Kufi Ink";
+  color:#3f2400;
+  font-size:55px;
+  font-weight: bold;
+}
+
+.block {
+  display: block;
+  border: 1px solid #fff0a6;
+  position:relative;
+  top: 135px;
+}
+
+img {
+  width:auto;
+  height:500px;
+  border: solid 3px #3f2400;
+}
+
+.container {
+  position: relative;
+  top:330px;
+  margin-left:30px;
+}
+
+figcaption {
+  text-align: center;
+  position:relative;
+  left: 25px;
+  font-family: "Metrophobic";
+  font-size: 20px;
+  color:#1F1300;
+  width:350px;
+
+}
+
+p {
+  position:absolute;
+  text-align: left;
+  font-family: "Metrophobic";
+  font-size: 25px;
+  color:#1F1300;
+  width:600px;
+  top: -30px;
+  left:700px;
+}
+
+
+
+h3 {
+  width:300px;
+  position:absolute;
+  top:640px;
+  left:550px;
+  text-align:center;
+  font-size:40px;
+  font-family:"Reem Kufi Ink";
+  color:#600a0b;
+
+}
+
+.block2 {
+  display: block;
+  border:solid 2px #fff0a6;
+}
+
+.block3 {
+  display: block;
+  border:solid 2px #fff0a6;
+}
+
+.diff01 {
+  position: relative;
+  left:450px;
+  top:50px;
+  width:500px;
+  text-align: center;
+}
+
+}

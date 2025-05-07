@@ -1,0 +1,233 @@
+body {
+    background-color:#F7B05B;
+}
+
+.reem-kufi-ink-regular {
+    font-family: "Reem Kufi Ink", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.metrophobic-regular {
+    font-family: "Metrophobic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    top:55px;
+    left:5px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #774c07;;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top:5px;
+    text-decoration: none;
+    font-family:"Reem Kufi Ink";
+    font-size:17px;
+  }
+
+  li a:hover {
+    color: #fff0a6;
+  }
+
+  .vector {
+    height:40px;
+    width:auto;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left:160px;
+    text-align: center;
+    border:none;
+    margin:0;
+  }
+
+  h1 {
+    position: absolute;
+    left: 15px;
+    top:65px;
+    font-family: "Reem Kufi Ink";
+    color:#9a5700;
+    font-size:60px;
+  }
+
+  .block {
+    display: block;
+    border: 1px solid #fff0a6;
+    position:relative;
+    top: 94px;
+  }
+
+  img {
+    width:300px;
+    height:auto;
+    border: solid 3px #3f2400;
+
+}
+
+
+.container {
+    text-align: center;
+    position: absolute;
+    width:300px;
+    top:200px;
+    left: 15px;
+}
+
+.about{
+    text-align: center;
+    position:Absolute;
+    width:300px;
+    top:270px;
+    font-family: "Metrophobic";
+    font-size:20px;
+    color:#3f2400;
+    left: 5px;
+
+}
+
+.container02 {
+    text-align: center;
+    position: absolute;
+    width:300px;
+    top:950px;
+    left:15px;
+}
+
+.about02{
+    text-align: center;
+    position:Absolute;
+    width:300px;
+    top:390px;
+    font-family: "Metrophobic";
+    font-size:20px;
+    color:#3f2400;
+    left: 5px;
+
+}
+
+.block02{
+  display: block;
+    border: 4px solid#fff0a6;
+    position: absolute;
+    top:670px;
+    width:100vw;
+}
+
+@media (min-width:992px) and (max-width: 1600px) {
+    
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    left:350px;
+    top:60px;
+    text-align:center;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #774c07;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top:5px;
+    text-decoration: none;
+    font-family:"Reem Kufi Ink";
+    font-size:40px;
+  }
+
+  li a:hover {
+    color:#fff0a6;
+  }
+
+  .vector {
+    height:60px;
+    width:auto;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left:700px;
+    text-align: center;
+  }
+
+  h1 {
+    position: absolute;
+    left: 480px;
+    top:120px;
+    font-family: "Reem Kufi Ink";
+    color:#9a5700;
+    font-size: 80px;
+  }
+
+  .block {
+    display: block;
+    border: 1px solid #fff0a6;
+    position:relative;
+    top: 140px;
+  }
+
+  img {
+    width:500px;
+    height:auto;
+    border: solid 5px #fff0a6;
+    text-align: center;
+    margin:10px;
+}
+
+.bio {
+  position: absolute;
+  top:100px;
+}
+
+.about {
+position: absolute;
+left:600px;
+top:100px;
+text-align:center;
+width:800px;
+font-size:30px;
+}
+
+.kitty {
+  position:absolute;
+  left:960px;
+  top:5px;
+  display: block;
+}
+.about02 {
+  position: absolute;
+  left:30px;
+  top:80px;
+  text-align:center;
+  width:800px;
+  font-size:30px;
+  }
+
+  .block02 {
+    display: block;
+    border: 4px solid#fff0a6;
+    position: absolute;
+    top:870px;
+    width: 100vw;
+  }
+
+}
